@@ -1,6 +1,6 @@
 <?php
 class Model {
-    private $value,$sve;
+    private $sve;
     
     public function set($userId){
         $conn = new Mysqli("localhost","root","","sakila");
